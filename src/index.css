@@ -20,6 +20,40 @@ body {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
+@layer utilities {
+  .px-gutter-mobile {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .px-gutter-desktop {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .-mx-gutter-mobile {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+
+  .mx-gutter-mobile {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .pt-safe {
+    padding-top: max(0.5rem, env(safe-area-inset-top));
+  }
+
+  .pb-safe {
+    padding-bottom: max(0.5rem, env(safe-area-inset-bottom));
+  }
+
+  .max-w-container-max {
+    max-width: 1280px;
+  }
+}
+
 .material-symbols-outlined {
   font-family: "Material Symbols Outlined";
   font-weight: normal;

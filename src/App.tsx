@@ -31,6 +31,7 @@ export default function App() {
       <Route path="/contacto" element={<Page file="contacto.html" title="Contacto" />} />
       <Route path="/productos/:id" element={<Page file="detalle-producto.html" title="Detalle de producto" />} />
       <Route path="/productos" element={<Page file="detalle-producto.html" title="Detalle de producto" />} />
+      <Route path="/detalle-producto" element={<Page file="detalle-producto.html" title="Detalle de producto" />} />
       <Route path="/admin" element={<Page file="dashboard.html" title="Dashboard" />} />
       <Route path="/admin-panel" element={<Page file="dashboard.html" title="Dashboard" />} />
       <Route path="/resumen" element={<Page file="dashboard.html" title="Dashboard" />} />
